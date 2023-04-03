@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Melagiu diena</title>
+    <link href="syle.css" type="text/css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Farsan&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 id="maloni1">Melagiu diena</h1><br>
+    <p id="Mano">
+Pykšt šaulys kiškelį, o tas - stryk Mėnulin<br>
+Ten kopūstus graužia ir po kelmu guli.<br>
+<br>
+Lapė atsisėdus ant laktos užgrojo -<br>
+Tuojau pulkas vištų suktiniui sustojo.<br>
+<br>
+Dviračiu sau gervė leidžias nuo kalnelio.<br>
+Žiogas gano briedžius ežere prie kelio.<br>
+<br>
+Sraigė su kuprine aplink Žemę eina,<br>
+Rūko sau cigarą ir dainuoja dainą.<br>
+<br>
+Kiaunė kepa duoną - kvepia visas šilas,<br>
+Silkės krūmuos gieda, o lakštutė - tyli.</p>
+    <button onclick="balandizioPirma();">Spausti</button>
+        
+    <script>
+        
+        function balandizioPirma(){
+        
+        document.getElementById('maloni1').style.fontFamily = 'Dancing Script';
+        document.getElementById('maloni1').style.color = 'darkmagenta';
+        
+        document.getElementById('Mano').style.fontFamily = 'Farsan';
+        document.getElementById('Mano').style.color = 'darkmagenta';
+        document.getElementById('Mano').style.fontSize = '35px'
+            
+        document.body.style.backgroundImage = 'url(joke.png)';
+            };
+    </script>
+</body>
+</html>   
